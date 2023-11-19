@@ -2,10 +2,10 @@ import styles from './Card.module.css';
 
 function Card(params) {
     return(
-        <div className="cardContainer">
-            
+        <div className={styles.cardContainer}>
+            matheus
         </div>
-    );
+    )
 }
 
 export default Card
