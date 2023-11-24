@@ -1,7 +1,21 @@
+@import '../partials/colors.modules,';
+
 .heroContainer{
-    display: flex;            
+    display: flex;  
+    flex-direction: row nowrap;
+    width: 1440px;
+  
 }
 
 .imgPizza{
-    width: 100%px;
+    width: 600px; 
 }
+
+.heroContent{
+    padding: 10px 20px 10px 20px;
+    
+    .heroSubtitle{
+        color: $orange-text;
+    }
+}
+

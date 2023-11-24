@@ -6,10 +6,10 @@ function Hero(params) {
         <>
         <div className={style.heroContainer}>
                 
-                <div className="heroContent">
-                    <h2 className="heroSubtitle">FOOD DELIVERY _____</h2>
-                    <h1 className="heroTitle">observe the food feel the taste</h1>
-                    <p className="herotext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo eos ab exercitationem. Rerum sint autem itaque hic eaque cupiditate consectetur at aspernatur. A, molestiae! Rem ducimus eveniet obcaecati excepturi.</p>
+                <div className={style.heroContent}>
+                    <h2 className={style.heroSubtitle}>FOOD DELIVERY _____</h2>
+                    <h1 className="heroTitle">observe the food <br></br> feel the taste</h1>
+                    <p className="heroText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo eos ab exercitationem. Rerum sint autem itaque hic eaque cupiditate consectetur at aspernatur. A, molestiae! Rem ducimus eveniet obcaecati excepturi.</p>
                 </div>
 
                 <div className="heroImgContainer">

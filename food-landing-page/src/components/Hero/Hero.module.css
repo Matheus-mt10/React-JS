@@ -1,7 +1,17 @@
 .heroContainer {
   display: flex;
+  flex-direction: row nowrap;
+  width: 1440px;
 }
 
 .imgPizza {
-  width: 100% px;
+  width: 600px;
+}
+
+.heroContent {
+  padding: 10px 20px 10px 20px;
+}
+
+.heroSubtitle {
+  color: #fc965f;
 }/*# sourceMappingURL=Hero.module.css.map */
