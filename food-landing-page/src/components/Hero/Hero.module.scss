@@ -1,4 +1,4 @@
-@import '../partials/colors.modules,';
+@import '../partials/colors.modules.scss';
 
 .heroContainer{
     display: flex;  
@@ -13,9 +13,13 @@
 
 .heroContent{
     padding: 10px 20px 10px 20px;
-    
+    text-align: left;
     .heroSubtitle{
         color: $orange-text;
+    }
+
+    .heroTitle{
+        font-size: 4rem;
     }
 }
 

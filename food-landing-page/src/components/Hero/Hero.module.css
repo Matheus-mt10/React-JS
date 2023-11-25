@@ -10,8 +10,11 @@
 
 .heroContent {
   padding: 10px 20px 10px 20px;
+  text-align: left;
 }
-
-.heroSubtitle {
+.heroContent .heroSubtitle {
   color: #fc965f;
+}
+.heroContent .heroTitle {
+  font-size: 4rem;
 }/*# sourceMappingURL=Hero.module.css.map */

@@ -1,5 +1,6 @@
 import style from './Hero.module.css'
 import imgPizza from '../assets/pizza1c.png'
+import Button1 from '../Button1/Button1';
 
 function Hero(params) {
     return(
@@ -8,8 +9,10 @@ function Hero(params) {
                 
                 <div className={style.heroContent}>
                     <h2 className={style.heroSubtitle}>FOOD DELIVERY _____</h2>
-                    <h1 className="heroTitle">observe the food <br></br> feel the taste</h1>
-                    <p className="heroText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo eos ab exercitationem. Rerum sint autem itaque hic eaque cupiditate consectetur at aspernatur. A, molestiae! Rem ducimus eveniet obcaecati excepturi.</p>
+                    <h1 className={style.heroTitle} >observe the food <br></br> feel the taste</h1>
+                    <p className="heroText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo eos ab exercitationem. Rerum sint autem itaque hic eaque cupiditate consectetur at aspernatur. </p>
+                    <Button1></Button1>
+
                 </div>
 
                 <div className="heroImgContainer">
