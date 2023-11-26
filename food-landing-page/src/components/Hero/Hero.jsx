@@ -8,9 +8,9 @@ function Hero(params) {
         <div className={style.heroContainer}>
                 
                 <div className={style.heroContent}>
-                    <h2 className={style.heroSubtitle}>FOOD DELIVERY _____</h2>
+                    <h2 className={style.heroSubtitle}>FOOD DELIVERY </h2>
                     <h1 className={style.heroTitle} >observe the food <br></br> feel the taste</h1>
-                    <p className="heroText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo eos ab exercitationem. Rerum sint autem itaque hic eaque cupiditate consectetur at aspernatur. </p>
+                    <p className={style.heroText}>Add a joy of best teste. Foodie moments. Taste the best that surprise you. </p>
                     <Button1></Button1>
 
                 </div>

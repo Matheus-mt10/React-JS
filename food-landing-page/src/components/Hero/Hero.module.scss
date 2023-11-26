@@ -3,23 +3,37 @@
 .heroContainer{
     display: flex;  
     flex-direction: row nowrap;
+    align-items: center;
+    justify-content: center;
     width: 1440px;
+    margin-top: 150px;
+    background-color: $bg-color;
   
 }
 
 .imgPizza{
-    width: 600px; 
+    width: 540px; 
 }
 
 .heroContent{
     padding: 10px 20px 10px 20px;
     text-align: left;
+
     .heroSubtitle{
+        margin: 0ex;
         color: $orange-text;
+        font-size: 1.2em;
+        font-weight: 500;
     }
 
     .heroTitle{
-        font-size: 4rem;
+        margin: 0;
+        font-size: 3.6rem;
+    }
+
+    .heroText{
+        font-size: 1.3em;
+        padding: 0px 100px 0px 0px;
     }
 }
 

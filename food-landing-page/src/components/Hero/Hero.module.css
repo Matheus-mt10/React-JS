@@ -1,11 +1,15 @@
 .heroContainer {
   display: flex;
   flex-direction: row nowrap;
+  align-items: center;
+  justify-content: center;
   width: 1440px;
+  margin-top: 150px;
+  background-color: rgba(255, 229, 217, 0.8039215686);
 }
 
 .imgPizza {
-  width: 600px;
+  width: 540px;
 }
 
 .heroContent {
@@ -13,8 +17,16 @@
   text-align: left;
 }
 .heroContent .heroSubtitle {
+  margin: 0ex;
   color: #fc965f;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 .heroContent .heroTitle {
-  font-size: 4rem;
+  margin: 0;
+  font-size: 3.6rem;
+}
+.heroContent .heroText {
+  font-size: 1.3em;
+  padding: 0px 100px 0px 0px;
 }/*# sourceMappingURL=Hero.module.css.map */

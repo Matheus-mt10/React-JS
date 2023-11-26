@@ -1,8 +1,16 @@
 .buttonDefault{
-    width: 100px;
-        height: 36px;
-        border-radius: 10px;
-        border: none;
-        background-color: tomato;
-        box-shadow: 2px 3px 10px -2px rgba(51,51,51,0.41);
+    width: 150px;
+    color: white;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(242,115,41);
+    background: linear-gradient(4deg, rgba(242,115,41,1) 0%, rgba(242,82,40,1) 82%, rgba(204,88,20,1) 100%);
+    box-shadow: 8px 15px 26px -22px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 8px 15px 26px -22px rgba(0,0,0,0.6);
+    -moz-box-shadow: 8px 15px 26px -22px rgba(0,0,0,0.6);
+    font-size: 1em;
+    font-weight: 600;
+
+
 }
