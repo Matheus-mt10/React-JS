@@ -1,0 +1,25 @@
+
+.ContainerColorFull{
+    display: 220px
+}
+
+.aboutAllContent{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1220px;
+    gap: 100px;
+
+    .xbaconImg{
+        width: 400px;
+    }
+
+    .aboutContent{
+        text-align: left;
+        width: 400px;
+    }
+
+    }
+
+
