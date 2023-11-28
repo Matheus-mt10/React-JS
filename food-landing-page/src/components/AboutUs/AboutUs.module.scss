@@ -1,3 +1,4 @@
+@import '../partials/colors.module';
 
 .ContainerColorFull{
     display: 220px
@@ -8,7 +9,7 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    max-width: 1220px;
+    max-width: 1440px;
     gap: 100px;
 
     .xbaconImg{
@@ -20,6 +21,16 @@
         width: 400px;
     }
 
+    .aboutSubtitle{
+        color: $orange-text;
     }
 
+    .aboutTitle{
+        color: tomato;
+    }
+   
+
+    }
+
+    
 

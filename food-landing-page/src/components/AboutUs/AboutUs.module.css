@@ -7,7 +7,7 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  max-width: 1220px;
+  max-width: 1440px;
   gap: 100px;
 }
 .aboutAllContent .xbaconImg {
@@ -16,4 +16,10 @@
 .aboutAllContent .aboutContent {
   text-align: left;
   width: 400px;
+}
+.aboutAllContent .aboutSubtitle {
+  color: #fc965f;
+}
+.aboutAllContent .aboutTitle {
+  color: tomato;
 }/*# sourceMappingURL=AboutUs.module.css.map */
