@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 240px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aqua;
+  padding: 10px;
+}
+.card .orderImg .deliveryImg {
+  width: 80px;
+}
+.card .orderTitle {
+  margin-bottom: 0;
+}/*# sourceMappingURL=Card.module.css.map */

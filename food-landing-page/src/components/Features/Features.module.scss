@@ -1,0 +1,25 @@
+@import '../partials/_colors.module.scss';
+
+.featureContainer{
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    .featureHeader{
+        
+        .featureTitle{
+            color: $orange-text;
+            font-weight: 500;
+            margin-bottom: 0;
+           
+        }
+
+        .featureSubtitle{
+            font-size: 2.8em;
+            margin-top: 0;
+        }
+    }
+
+
+}

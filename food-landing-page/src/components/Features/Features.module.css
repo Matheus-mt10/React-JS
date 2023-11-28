@@ -1,0 +1,14 @@
+.featureContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.featureContainer .featureHeader .featureTitle {
+  color: #fc965f;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.featureContainer .featureHeader .featureSubtitle {
+  font-size: 2.8em;
+  margin-top: 0;
+}/*# sourceMappingURL=Features.module.css.map */
