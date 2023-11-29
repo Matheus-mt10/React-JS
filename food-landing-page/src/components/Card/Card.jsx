@@ -1,16 +1,16 @@
 import style from './Card.module.css'
-import deliveryImg from '../assets/deliveryImg.png'
 
-function Card() {
+function Card({cardImg, cardTitle, cardText}) {
+    // cardImg, cardTitle, cardText
     return(
 
         <div className={style.card}>
             <div className={style.orderImg}>
-                <img src={deliveryImg} className={style.deliveryImg} alt="Order icon for the better view" />
+                <img src={cardImg} className={style.cardImg} alt="icon for the better view" />
             </div>
-            <h2 className={style.orderTitle}>Easy To Order</h2>
-            <p className="orderText">
-                Your favorite food delivery partner.<br></br> A trendly food delivery. 
+            <h2 className={style.orderTitle}>{cardTitle}</h2>
+            <p className={style.cardText}>
+                {cardText}
             </p>
         </div>
 

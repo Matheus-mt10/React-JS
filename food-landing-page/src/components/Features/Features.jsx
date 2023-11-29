@@ -1,5 +1,7 @@
-import style from './Features.module.css'
+import style from './Features.module.css';
 import Card from '../Card/Card';
+import orderImg from '../assets/orderImg.png';
+import deliveryImg from '../assets/deliveryImg.png';
 
 
 function Features(){
@@ -10,8 +12,20 @@ function Features(){
                 <h2 className={style.featureSubtitle}> Out Awesome services</h2>
             </div>
 
-            <div className="featureCards">
-                <Card></Card>
+            <div className={style.featureCards}>
+                <Card
+                cardImg={orderImg}
+                cardTitle={"Easy To Order"}
+                cardText={"Your favorite food delivery partner. A trendly food delivery."}
+                >
+                </Card>
+
+                <Card
+                cardImg={deliveryImg}
+                cardTitle={"Fast delivery "}
+                cardText={"The food at your doorstep. Best service to fulfil your expectations."}
+                >
+                </Card>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import style from './Header.module.css'
 import imgBrand from "../assets/continho.png"
+import Button from '../Button/Button'
 
 function Header () {
     return(
@@ -20,7 +21,9 @@ function Header () {
                     <li className="navItem"> <a href="#">login</a></li>
                 </ul>
 
-                <button type="submit" className={style.navButton} >Sign Up</button>
+                <Button
+                buttonText={"Sign in "}
+                ></Button>
 
             </nav>
 

@@ -11,4 +11,11 @@
 .featureContainer .featureHeader .featureSubtitle {
   font-size: 2.8em;
   margin-top: 0;
+}
+.featureContainer .featureCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }/*# sourceMappingURL=Features.module.css.map */
