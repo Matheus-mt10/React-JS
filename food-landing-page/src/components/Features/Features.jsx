@@ -2,6 +2,7 @@ import style from './Features.module.css';
 import Card from '../Card/Card';
 import orderImg from '../assets/orderImg.png';
 import deliveryImg from '../assets/deliveryImg.png';
+import creditCard from '../assets/creditcardImg.png';
 
 
 function Features(){
@@ -26,6 +27,14 @@ function Features(){
                 cardText={"The food at your doorstep. Best service to fulfil your expectations."}
                 >
                 </Card>
+
+                <Card
+                cardImg={creditCard}
+                cardTitle={"Secureted Payment"}
+                cardText={"Our commitments is keeping you safe. Pinnacle of reliability"}
+                >
+                </Card>
+                
             </div>
         </div>
     );
