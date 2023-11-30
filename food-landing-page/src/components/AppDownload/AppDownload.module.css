@@ -1,3 +1,23 @@
+.appDownload .appBox {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: antiquewhite;
+  text-align: left;
+}
+.appDownload .appBox .downloadTitleBox {
+  display: flex;
+  text-align: left;
+  flex-flow: column;
+}
+.appDownload .appBox .storesApps {
+  width: 200px;
+  padding: 10px;
+  background-color: tomato;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: left;
+}
 .brandsStore {
-  width: 150px;
+  width: 80px;
 }/*# sourceMappingURL=AppDownload.module.css.map */
