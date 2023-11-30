@@ -13,6 +13,7 @@ function App() {
     <Hero></Hero>
     <AboutUs></AboutUs>
     <Features></Features>
+    <AppDownload></AppDownload>
   
 
     </div>
