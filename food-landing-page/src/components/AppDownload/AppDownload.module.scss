@@ -2,7 +2,7 @@
     .appBox{
         display: flex;
         flex-flow: column nowrap;
-        background-color: antiquewhite;
+        background-color: rgb(234, 189, 131);
         text-align: left;
 
 
@@ -13,22 +13,20 @@
         }
 
         .storesApps{
-            width: 200px;
-            padding: 10px;
+            
             background-color: tomato;
             display: flex;
             flex-flow: row wrap;
             align-items: center;
             justify-content: left;
-        }
 
-        .brandsStore{
-            
+            .brandsStore{
+                width: 200px;
+            }
+    
         }
-
+    
     }
+
 }
 
-.brandsStore{
-    width: 80px;
-}

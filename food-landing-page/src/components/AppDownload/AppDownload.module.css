@@ -1,7 +1,7 @@
 .appDownload .appBox {
   display: flex;
   flex-flow: column nowrap;
-  background-color: antiquewhite;
+  background-color: rgb(234, 189, 131);
   text-align: left;
 }
 .appDownload .appBox .downloadTitleBox {
@@ -10,14 +10,12 @@
   flex-flow: column;
 }
 .appDownload .appBox .storesApps {
-  width: 200px;
-  padding: 10px;
   background-color: tomato;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: left;
 }
-.brandsStore {
-  width: 80px;
+.appDownload .appBox .storesApps .brandsStore {
+  width: 200px;
 }/*# sourceMappingURL=AppDownload.module.css.map */
