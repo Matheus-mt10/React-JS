@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 
 .App {
   text-align: center;
@@ -5,6 +10,11 @@
   flex-direction: column;
   align-items: center ;
   background-color: #FFE6DA;
+
+  
 }
 
+img{
+  max-width: 100%;
+}
 

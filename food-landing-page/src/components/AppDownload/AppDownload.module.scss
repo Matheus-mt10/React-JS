@@ -1,15 +1,36 @@
+@import '../partials/colors.module';
+
 .appDownload{
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    
+
     .appBox{
         display: flex;
         flex-flow: column nowrap;
         background-color: rgb(234, 189, 131);
         text-align: left;
-
-
+        justify-content: center;
+        padding-bottom: 10px;
+        
         .downloadTitleBox{
             display: flex;
             text-align: left;
             flex-flow: column;
+            gap: 30px;
+
+            .downloadTitle{
+                color: $orange-text;
+            }
+
+            .downloadTitle2{
+                font-size: 45px;
+            }
+
         }
 
         .storesApps{
@@ -19,13 +40,24 @@
             flex-flow: row wrap;
             align-items: center;
             justify-content: left;
+            gap: 30px;
+            padding: 10px 10px;
 
             .brandsStore{
                 width: 200px;
+                
             }
-    
         }
     
+    }
+    .imgBox {
+        display: flex;
+        flex-direction: row;
+
+        .phoneImg{
+            width: 2000px;
+
+        }
     }
 
 }

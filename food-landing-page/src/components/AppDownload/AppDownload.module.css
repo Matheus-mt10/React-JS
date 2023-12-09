@@ -1,13 +1,29 @@
+.appDownload {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+}
 .appDownload .appBox {
   display: flex;
   flex-flow: column nowrap;
   background-color: rgb(234, 189, 131);
   text-align: left;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 .appDownload .appBox .downloadTitleBox {
   display: flex;
   text-align: left;
   flex-flow: column;
+  gap: 30px;
+}
+.appDownload .appBox .downloadTitleBox .downloadTitle {
+  color: #fc965f;
+}
+.appDownload .appBox .downloadTitleBox .downloadTitle2 {
+  font-size: 45px;
 }
 .appDownload .appBox .storesApps {
   background-color: tomato;
@@ -15,7 +31,16 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: left;
+  gap: 30px;
+  padding: 10px 10px;
 }
 .appDownload .appBox .storesApps .brandsStore {
   width: 200px;
+}
+.appDownload .imgBox {
+  display: flex;
+  flex-direction: row;
+}
+.appDownload .imgBox .phoneImg {
+  width: 2000px;
 }/*# sourceMappingURL=AppDownload.module.css.map */

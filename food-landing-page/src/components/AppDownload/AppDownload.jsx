@@ -9,9 +9,9 @@ function AppDownload(params) {
                 <div className={style.appBox}>
 
                     <div className={style.downloadTitleBox}>
-                        <h2 className="downloadTitle"> Download </h2>
-                        <h2 className="downloadTitle2">Get the app just now</h2>
-                        <p className="downloadTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos quod cum eaque illum sunt, laborum tempore labore!</p>
+                        <h2 className={style.downloadTitle}> Download </h2>
+                        <h2 className={style.downloadTitle2}>Get the  ?food app just now</h2>
+                        <p className={style.downloadText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos quod cum eaque illum sunt, laborum tempore labore!</p>
                     </div>
 
                     <div className={style.storesApps}>
@@ -25,8 +25,8 @@ function AppDownload(params) {
                 </div>
 
 
-                <div className="imgBox">
-                    <img src={smartphoneImg} alt="" />
+                <div className={style.imgBox} >
+                    <img className={style.phoneImg} src={smartphoneImg} alt="" />
                 </div>
 
             </div>
