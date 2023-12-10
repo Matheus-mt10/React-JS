@@ -5,59 +5,71 @@ footer {
   justify-content: center;
   width: 100%;
   height: 400px;
-  background-color: #c3c3c3;
+  background-color: #d9d9d9;
   padding: 10px 0px 10px 0px;
   gap: 20px;
 }
-footer .socialContacts {
+footer .containerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c3c3c3;
+}
+footer .containerFooter .socialContacts {
   display: flex;
   flex-flow: column;
   align-items: start;
+  justify-content: center;
   background-color: whitesmoke;
   width: 400px;
-  height: 100%;
-  gap: 10px;
 }
-footer .socialContacts .socialText {
+footer .containerFooter .socialContacts .socialText {
   text-align: left;
+  margin-bottom: 20px;
 }
-footer .socialContacts .logoFooter {
+footer .containerFooter .socialContacts .logoFooter {
   display: flex;
   align-items: start;
-  width: 160px;
+  width: 140px;
 }
-footer .ourMenu {
+footer .containerFooter .ourMenu {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+}
+footer .containerFooter .ourMenu h2 {
+  margin-top: 10px;
+}
+footer .containerFooter .ourMenu ul {
+  margin-top: 20px;
+}
+footer .containerFooter .ourMenu ul li {
+  text-align: left;
+  list-style: none;
+  font-size: 18px;
+  margin: 15px 0px 15px 0px;
+}
+footer .containerFooter .usefulLinks {
   display: flex;
   flex-flow: column;
   align-items: start;
   justify-content: center;
   height: 100%;
-  gap: 10px;
 }
-footer .ourMenu li {
-  text-align: left;
-  list-style: none;
-  font-size: 20px;
-}
-footer .usefulLinks {
-  display: flex;
-  flex-flow: column;
-  align-items: start;
-  justify-content: center;
-  height: 100%;
-}
-footer .usefulLinks li {
+footer .containerFooter .usefulLinks li {
   text-align: left;
   list-style: none;
 }
-footer .socialMedias {
+footer .containerFooter .socialMedias {
   display: flex;
   gap: 20px;
 }
-footer .socialMedias .socialLogo {
+footer .containerFooter .socialMedias .socialLogo {
   width: 48px;
+  margin-top: 10px;
 }
-footer a {
+footer .containerFooter a {
   text-decoration: none;
   color: black;
 }/*# sourceMappingURL=Footer.module.css.map */
