@@ -1,0 +1,30 @@
+.socialContacts{
+
+    display: flex;
+    flex-flow: column;
+    background-color: whitesmoke;
+    width: 400px;
+
+    .socialText{
+        text-align: left;
+    }
+
+    .logoFooter{
+        display: flex;
+        align-items: start;
+        width: 200px;
+        
+    }
+
+
+
+}
+
+
+.socialLogo{
+    width: 64px;
+}
+
+.faceLogo{
+    width: 64px;
+}

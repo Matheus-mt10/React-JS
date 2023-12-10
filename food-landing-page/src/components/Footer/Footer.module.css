@@ -1,0 +1,22 @@
+.socialContacts {
+  display: flex;
+  flex-flow: column;
+  background-color: whitesmoke;
+  width: 400px;
+}
+.socialContacts .socialText {
+  text-align: left;
+}
+.socialContacts .logoFooter {
+  display: flex;
+  align-items: start;
+  width: 200px;
+}
+
+.socialLogo {
+  width: 64px;
+}
+
+.faceLogo {
+  width: 64px;
+}/*# sourceMappingURL=Footer.module.css.map */

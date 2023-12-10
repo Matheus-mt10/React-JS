@@ -11,7 +11,7 @@ function AppDownload(params) {
                     <div className={style.downloadTitleBox}>
                         <h2 className={style.downloadTitle}> Download </h2>
                         <h2 className={style.downloadTitle2}>Get the  ?food app just now</h2>
-                        <p className={style.downloadText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos quod cum eaque illum sunt, laborum tempore labore!</p>
+                        <p className={style.downloadText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos quod cum eaque illum sunt, laborum tempore labore! </p>
                     </div>
 
                     <div className={style.storesApps}>
