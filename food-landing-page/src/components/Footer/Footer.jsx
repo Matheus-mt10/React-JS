@@ -19,31 +19,46 @@ function Footer(params) {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. .
                 </p>
 
-                <div className="socialMedias">
-                    <img src={faceLogo}  className={style.socialLogo} alt=" Facebook logo" />
-                    <img src={instaLogo} className={style.socialLogo}  alt=" Instagram Logo" />
-                    <img src={twitterLogo} className={style.socialLogo} alt="Twitter Logo" />
-                    <img src={linkedinLogo} className={style.socialLogo} alt=" Linkedin Logo" />
+                <div className={style.socialMedias}>
+                    <a href="#"><img src={faceLogo}  className={style.socialLogo} alt=" Facebook logo" /></a>
+                    <a href="#"><img src={instaLogo} className={style.socialLogo}  alt=" Instagram Logo" /></a>
+                    <a href="#"><img src={twitterLogo} className={style.socialLogo} alt="Twitter Logo" /></a>
+                    <a href="#"><img src={linkedinLogo} className={style.socialLogo} alt=" Linkedin Logo" /></a>
                 </div>
 
             </div>
 
-            <div className="ourMenu">
+            <div className={style.ourMenu}>
                 <h2>Our Menu</h2>
                 <ul>
-                    <li>Breakfast</li>
-                    <li>Lunce</li>
-                    <li>Dunner</li>
-                    <li>Snack</li>
+                    <a href="#">
+                        <li>Breakfast</li>
+                    </a>
+                    <a href="#">
+                        <li>Lunce</li>
+                    </a>
+                    <a href="#">
+                        <li>Dunner</li>
+                    </a>
+                    <a href="#" >
+                        <li>Snack</li>
+                    </a>
                 </ul>
             </div>
 
-            <div className="usefulLinks">
+            <div className={style.usefulLinks}>
+                <h2>Useseful links</h2>
                 <ul>
-                    <li>Services</li>
-                    <li>Support</li>
-                    <li>Conditions</li>
-                    <li>Security</li>
+                    <a href="#">
+                        <li>Services</li>
+                    </a>
+                    <a href="#">
+                        <li>Support</li>
+                        <li>Conditions</li>
+                    </a>
+                    <a href="#">
+                        <li>Security</li>
+                    </a>
                 </ul>
                 
             </div>

@@ -1,22 +1,63 @@
-.socialContacts {
+footer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: #c3c3c3;
+  padding: 10px 0px 10px 0px;
+  gap: 20px;
+}
+footer .socialContacts {
   display: flex;
   flex-flow: column;
+  align-items: start;
   background-color: whitesmoke;
   width: 400px;
+  height: 100%;
+  gap: 10px;
 }
-.socialContacts .socialText {
+footer .socialContacts .socialText {
   text-align: left;
 }
-.socialContacts .logoFooter {
+footer .socialContacts .logoFooter {
   display: flex;
   align-items: start;
-  width: 200px;
+  width: 160px;
 }
-
-.socialLogo {
-  width: 64px;
+footer .ourMenu {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  gap: 10px;
 }
-
-.faceLogo {
-  width: 64px;
+footer .ourMenu li {
+  text-align: left;
+  list-style: none;
+  font-size: 20px;
+}
+footer .usefulLinks {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+}
+footer .usefulLinks li {
+  text-align: left;
+  list-style: none;
+}
+footer .socialMedias {
+  display: flex;
+  gap: 20px;
+}
+footer .socialMedias .socialLogo {
+  width: 48px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=Footer.module.css.map */
