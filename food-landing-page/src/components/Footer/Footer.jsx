@@ -77,8 +77,6 @@ function Footer(params) {
                     </div>
                 </div>
 
-
-
             </div>
             
         </footer>
