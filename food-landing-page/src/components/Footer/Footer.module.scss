@@ -87,7 +87,6 @@ footer{
                 }
             }
 
-
         }
 
             .socialMedias{
@@ -100,6 +99,64 @@ footer{
                 
                 }
 
+            }
+
+
+
+            .stayConnected{
+                background-color: aquamarine;
+                padding: 10px;
+                text-align: left;
+
+                .footerSearchBox{
+                    background-color:white;
+                    display: flex;
+                    flex-flow: row;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 5px;
+                    height: 34px;
+                    border-radius: 10px;
+                    margin: 5px 0px 5px 0px ;
+
+                    .inputFooter{
+                        border: none;
+                        padding: 5px;
+                    }
+
+                    a{
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .phoneBox{
+            
+                    .phoneImg{
+                        width: 20px;
+                    }
+                }
+
+                .emailBox{
+
+                    .emailImg{
+                        width: 20px;
+                    }
+
+                }
+
+
+                .email{
+                    width: 20px;
+                }
+
+                .arrow{
+                    width: 20px;
+                    padding-left: 5px;
+                }
             }
 
 

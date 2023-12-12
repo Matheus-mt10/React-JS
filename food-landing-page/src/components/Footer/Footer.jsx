@@ -5,7 +5,8 @@ import instaLogo from '../assets/instagram.png';
 import twitterLogo from '../assets/twitter.png';
 import linkedinLogo from '../assets/linkedin.png';
 import arrow from '../assets/arrow.png';
-
+import phone from '../assets/phone.png';
+import email from '../assets/email.png';
 
 function Footer(params) {
     return(
@@ -59,17 +60,21 @@ function Footer(params) {
                 
                 </div>
                 
-                <div className="stayConnected">
+                <div className={style.stayConnected}>
                     <h2 className="stayConnected"> Stay Connected</h2>
-                    <div className="footerSearchBox">
-                        <input type="search" name="" id="inputFooter" className='inputFooter' placeholder='Email Address'/>
-                        <a href="#"><img src={arrow} alt="Flexa de pesquisa" className='arrow'/></a>
+                    <div className={style.footerSearchBox}>
+                        <input type="search" name="" id="inputFooter" className={style.inputFooter} placeholder='Email Address'/>
+                        <a href="#"><img src={arrow} alt="Flexa de pesquisa" className={style.arrow}/></a>
                     </div>
 
-                    <div className="phone">
-                        
+                    <div className={style.phoneBox}>
+                        <img src={phone} className={style.phoneImg} alt="Phone logo" />
+                        <p>Call +55 (11)9999-9999</p>
                     </div>
-                    <div className="email"></div>
+                    <div className={style.emailBox}>
+                        <img src={email} className={style.emailImg} alt="Email logo" />
+                        <p>Support.cantinhodosabor.net</p>
+                    </div>
                 </div>
 
 
