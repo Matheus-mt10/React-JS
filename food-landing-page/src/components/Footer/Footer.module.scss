@@ -42,11 +42,10 @@ footer{
         .ourMenu{
             display: flex;
             flex-flow: column;
-            align-items: start;
             justify-content: center;
-            
+            height: 100%;
             h2{
-                margin-top: 10px;
+              font-size: 25px;
             }
 
             ul{

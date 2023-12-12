@@ -35,11 +35,11 @@ footer .containerFooter .socialContacts .logoFooter {
 footer .containerFooter .ourMenu {
   display: flex;
   flex-flow: column;
-  align-items: start;
   justify-content: center;
+  height: 100%;
 }
 footer .containerFooter .ourMenu h2 {
-  margin-top: 10px;
+  font-size: 25px;
 }
 footer .containerFooter .ourMenu ul {
   margin-top: 20px;
