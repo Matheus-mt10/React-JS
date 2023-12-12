@@ -4,6 +4,7 @@ import faceLogo from '../assets/facebook.png';
 import instaLogo from '../assets/instagram.png';
 import twitterLogo from '../assets/twitter.png';
 import linkedinLogo from '../assets/linkedin.png';
+import arrow from '../assets/arrow.png';
 
 
 function Footer(params) {
@@ -57,6 +58,22 @@ function Footer(params) {
                     </ul>
                 
                 </div>
+                
+                <div className="stayConnected">
+                    <h2 className="stayConnected"> Stay Connected</h2>
+                    <div className="footerSearchBox">
+                        <input type="search" name="" id="inputFooter" className='inputFooter' placeholder='Email Address'/>
+                        <a href="#"><img src={arrow} alt="Flexa de pesquisa" className='arrow'/></a>
+                    </div>
+
+                    <div className="phone">
+                        
+                    </div>
+                    <div className="email"></div>
+                </div>
+
+
+
             </div>
             
         </footer>

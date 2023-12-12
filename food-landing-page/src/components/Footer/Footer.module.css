@@ -14,6 +14,7 @@ footer .containerFooter {
   align-items: center;
   justify-content: center;
   background-color: #c3c3c3;
+  gap: 40px;
 }
 footer .containerFooter .socialContacts {
   display: flex;
@@ -35,38 +36,49 @@ footer .containerFooter .socialContacts .logoFooter {
 footer .containerFooter .ourMenu {
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: end;
   height: 100%;
+  padding: 10px;
 }
 footer .containerFooter .ourMenu h2 {
   font-size: 25px;
 }
 footer .containerFooter .ourMenu ul {
   margin-top: 20px;
+  height: 100%;
 }
 footer .containerFooter .ourMenu ul li {
   text-align: left;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px 0px 15px 0px;
 }
 footer .containerFooter .usefulLinks {
   display: flex;
   flex-flow: column;
-  align-items: start;
-  justify-content: center;
+  justify-content: end;
+  height: 100%;
+  padding: 10px;
+}
+footer .containerFooter .usefulLinks h2 {
+  font-size: 25px;
+}
+footer .containerFooter .usefulLinks ul {
+  margin-top: 20px;
   height: 100%;
 }
-footer .containerFooter .usefulLinks li {
+footer .containerFooter .usefulLinks ul li {
   text-align: left;
   list-style: none;
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
 }
 footer .containerFooter .socialMedias {
   display: flex;
   gap: 20px;
 }
 footer .containerFooter .socialMedias .socialLogo {
-  width: 48px;
+  width: 44px;
   margin-top: 10px;
 }
 footer .containerFooter a {

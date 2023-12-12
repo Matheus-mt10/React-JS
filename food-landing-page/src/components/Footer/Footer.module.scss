@@ -15,6 +15,7 @@ footer{
         align-items: center;
         justify-content: center;
         background-color: #c3c3c3;
+        gap: 40px;
 
 
         .socialContacts{
@@ -42,19 +43,21 @@ footer{
         .ourMenu{
             display: flex;
             flex-flow: column;
-            justify-content: center;
+            justify-content: end;
             height: 100%;
+            padding: 10px;
+            
             h2{
               font-size: 25px;
             }
 
             ul{
                 margin-top: 20px;
-            
+                height: 100%;
                 li{
                     text-align: left;
                     list-style: none;
-                    font-size: 18px;
+                    font-size: 20px;
                     margin: 15px 0px 15px 0px;
                 }
             }
@@ -65,14 +68,25 @@ footer{
         .usefulLinks{
             display: flex;
             flex-flow: column;
-            align-items: start;
-            justify-content: center;
+            justify-content: end;
             height: 100%;
-
-            li{
-                text-align: left;
-                list-style: none;
+            padding: 10px;
+            
+            h2{
+              font-size: 25px;
             }
+
+            ul{
+                margin-top: 20px;
+                height: 100%;
+                li{
+                    text-align: left;
+                    list-style: none;
+                    font-size: 20px;
+                    margin: 15px 0px 15px 0px;
+                }
+            }
+
 
         }
 
@@ -81,7 +95,7 @@ footer{
                 gap: 20px;
 
                 .socialLogo{
-                    width: 48px;
+                    width: 44px;
                     margin-top: 10px;
                 
                 }
