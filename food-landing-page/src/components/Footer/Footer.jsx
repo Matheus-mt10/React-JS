@@ -9,6 +9,7 @@ import phone from '../assets/phone.png';
 import email from '../assets/email.png';
 
 function Footer(params) {
+    var linkedin = "www.linkedin.com/in/matheus-santana-dev";
     return(
         <footer>
             <div className={style.containerFooter}>
@@ -77,6 +78,9 @@ function Footer(params) {
                     </div>
                 </div>
 
+            </div>
+            <div className={style.createBy}>
+                <p>Create With React.JS by <a href={linkedin} target='blank' > Matheus Santana 2023</a></p>
             </div>
             
         </footer>
