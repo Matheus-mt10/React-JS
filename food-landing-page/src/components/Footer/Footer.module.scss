@@ -29,12 +29,14 @@ footer{
             .socialText{
                 text-align: left;
                 margin-bottom: 20px;
+                color: $gray-font;
             }
 
             .logoFooter{
                 display: flex;
                 align-items: start;
                 width: 100px;
+                padding-bottom: 14px;
                 
             }
             .socialMedias{
@@ -67,6 +69,7 @@ footer{
                     list-style: none;
                     font-size: 16px;
                     margin: 15px 0px 15px 0px;
+                    color: $gray-font;
                 }
             }
 
@@ -91,11 +94,10 @@ footer{
                     list-style: none;
                     font-size: 16px;
                     margin: 15px 0px 15px 0px;
+                    color: $gray-font;
                 }
             }
         }
-
-
             .stayConnected{
                 padding: 10px;
                 text-align: left;
@@ -104,6 +106,7 @@ footer{
                 gap: 20px;
                 height: 100%;
                 margin-bottom: 28px;
+                
 
                 .footerSearchBox{
                     background-color:white;
@@ -118,6 +121,7 @@ footer{
                     box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
                     -webkit-box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
                     -moz-box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
+                    
                     
                     .inputFooter{
                         border: none;
@@ -148,6 +152,7 @@ footer{
                     align-items: center;
                     justify-content: left;
                     gap: 16px;
+                    color: $gray-font;
 
                     
                     .phoneImg{
@@ -165,7 +170,7 @@ footer{
                     align-items: center;
                     justify-content: left;
                     gap: 16px;
-
+                    color: $gray-font;
                     .emailImg{
                         width: 20px;
                     }
