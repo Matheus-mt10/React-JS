@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,13 +7,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
   background-color: #FFE6DA;
-  
-
 }
 
-img{
+img {
   max-width: 100%;
 }
-

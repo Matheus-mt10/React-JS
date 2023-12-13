@@ -8,7 +8,7 @@
 .appDownload .appBox {
   display: flex;
   flex-flow: column nowrap;
-  background-color: rgb(234, 189, 131);
+  background-color: #eabd83;
   text-align: left;
   justify-content: center;
   padding-bottom: 10px;
@@ -43,4 +43,4 @@
 }
 .appDownload .imgBox .phoneImg {
   width: 1000px;
-}/*# sourceMappingURL=AppDownload.module.css.map */
+}
