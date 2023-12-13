@@ -14,7 +14,8 @@ footer .containerFooter {
   align-items: center;
   justify-content: center;
   background-color: #c3c3c3;
-  gap: 40px;
+  gap: 100px;
+  padding: 10px;
 }
 footer .containerFooter .socialContacts {
   display: flex;
@@ -82,13 +83,13 @@ footer .containerFooter .socialMedias .socialLogo {
   margin-top: 10px;
 }
 footer .containerFooter .stayConnected {
-  background-color: aquamarine;
   padding: 10px;
   text-align: left;
   display: flex;
   flex-flow: column;
   gap: 20px;
   height: 100%;
+  margin-bottom: 53px;
 }
 footer .containerFooter .stayConnected .footerSearchBox {
   background-color: white;
@@ -100,6 +101,9 @@ footer .containerFooter .stayConnected .footerSearchBox {
   height: 34px;
   border-radius: 10px;
   margin: 0px 0px 10px 0px;
+  box-shadow: 4px 4px 10px 0px rgba(150, 150, 150, 0.48);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(150, 150, 150, 0.48);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(150, 150, 150, 0.48);
 }
 footer .containerFooter .stayConnected .footerSearchBox .inputFooter {
   border: none;
@@ -107,6 +111,12 @@ footer .containerFooter .stayConnected .footerSearchBox .inputFooter {
 }
 footer .containerFooter .stayConnected .footerSearchBox .inputFooter:focus {
   outline: none;
+}
+footer .containerFooter .stayConnected .footerSearchBox .inputFooter::-moz-placeholder {
+  color: #c3c3c3;
+}
+footer .containerFooter .stayConnected .footerSearchBox .inputFooter::placeholder {
+  color: #c3c3c3;
 }
 footer .containerFooter .stayConnected .footerSearchBox a {
   margin: 0;

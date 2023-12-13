@@ -15,7 +15,8 @@ footer{
         align-items: center;
         justify-content: center;
         background-color: #c3c3c3;
-        gap: 40px;
+        gap: 100px;
+        padding: 10px;
        
 
         .socialContacts{
@@ -98,13 +99,13 @@ footer{
             }
 
             .stayConnected{
-                background-color: aquamarine;
                 padding: 10px;
                 text-align: left;
                 display: flex;
                 flex-flow: column;
                 gap: 20px;
                 height: 100%;
+                margin-bottom: 53px;
 
                 .footerSearchBox{
                     background-color:white;
@@ -116,7 +117,10 @@ footer{
                     height: 34px;
                     border-radius: 10px;
                     margin: 0px 0px 10px 0px ;
-
+                    box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
+                    -webkit-box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
+                    -moz-box-shadow: 4px 4px 10px 0px rgba(150,150,150,0.48);
+                    
                     .inputFooter{
                         border: none;
                         padding: 5px;
@@ -125,6 +129,10 @@ footer{
                             outline: none;
                         }
                        
+                        &::placeholder{
+                            color: #c3c3c3;
+                        }
+
                     }
                     
                     a{
