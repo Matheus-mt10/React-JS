@@ -16,6 +16,7 @@ footer{
         justify-content: center;
         background-color: #c3c3c3;
         gap: 40px;
+       
 
         .socialContacts{
             display: flex;
@@ -100,6 +101,10 @@ footer{
                 background-color: aquamarine;
                 padding: 10px;
                 text-align: left;
+                display: flex;
+                flex-flow: column;
+                gap: 20px;
+                height: 100%;
 
                 .footerSearchBox{
                     background-color:white;
@@ -110,19 +115,18 @@ footer{
                     padding: 5px;
                     height: 34px;
                     border-radius: 10px;
-                    margin: 5px 0px 5px 0px ;
+                    margin: 0px 0px 10px 0px ;
 
                     .inputFooter{
                         border: none;
                         padding: 5px;
                         
-                        &&:focus{
+                        &:focus{
                             outline: none;
                         }
                        
                     }
                     
-
                     a{
                         margin: 0;
                         padding: 0;
@@ -133,13 +137,28 @@ footer{
                 }
 
                 .phoneBox{
-            
+                    display: flex;
+                    flex-flow: row;
+                    align-items: center;
+                    justify-content: left;
+                    gap: 16px;
+
+                    
                     .phoneImg{
                         width: 20px;
+                    }
+
+                    p{
+                        font-size: 16px;
                     }
                 }
 
                 .emailBox{
+                    display: flex;
+                    flex-flow: row;
+                    align-items: center;
+                    justify-content: left;
+                    gap: 16px;
 
                     .emailImg{
                         width: 20px;
