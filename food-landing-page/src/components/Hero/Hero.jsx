@@ -11,7 +11,7 @@ function Hero(params) {
                     <h2 className={style.heroSubtitle}>FOOD DELIVERY </h2>
                     <h1 className={style.heroTitle} >observe the food <br></br> feel the taste</h1>
                     <p className={style.heroText}>Add a joy of best teste. Foodie moments. Taste the best that surprise you. </p>
-                    <Button
+                    <Button 
                     buttonText={"Order new"}
                     ></Button>
 

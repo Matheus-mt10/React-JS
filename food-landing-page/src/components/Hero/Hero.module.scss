@@ -16,6 +16,8 @@
 }
 
 .heroContent{
+    display: flex;
+    flex-flow: column;
     padding: 10px 20px 10px 20px;
     text-align: left;
 
@@ -35,6 +37,9 @@
     .heroText{
         font-size: 1.3em;
         padding: 0px 100px 0px 0px;
+    }
+    Button{
+        margin-top: 30px;
     }
 }
 
