@@ -1,0 +1,20 @@
+header {
+  width: 100%;
+  display: flex;
+  background-color: #ec1010;
+  height: 250px;
+}
+header .navigationItens {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 100%;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+header .navigationItens .brandBox .logoHeader {
+  width: 60px;
+}
+header .navigationItens .navBoxIcon .navIcons {
+  width: 20px;
+}
