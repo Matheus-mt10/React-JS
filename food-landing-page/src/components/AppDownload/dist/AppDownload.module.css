@@ -2,8 +2,9 @@
   display: flex;
   flex-flow: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 1200px;
+  gap: 50px;
 }
 .appDownload .appBox {
   display: flex;
@@ -42,5 +43,5 @@
   flex-direction: row;
 }
 .appDownload .imgBox .phoneImg {
-  width: 1000px;
+  width: 600px;
 }

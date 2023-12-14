@@ -5,8 +5,9 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1200px;
+    gap: 50px;
     
 
     .appBox{
@@ -55,7 +56,7 @@
         flex-direction: row;
 
         .phoneImg{
-            width: 1000px;
+            width: 600px;
 
         }
     }

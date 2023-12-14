@@ -1,7 +1,7 @@
 import style from './AppDownload.module.css'
 import googleLabel from '../assets/googleLabel.png'
 import applelabel from '../assets/appleÇabel.png'
-import smartphoneImg from '../assets/smarthphoneWeb.png'
+import smartphoneImg from '../assets/app.png'
 
 function AppDownload(params) {
         return(
