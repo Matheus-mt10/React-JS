@@ -35,3 +35,12 @@
 .heroContent Button {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .heroContainer {
+    width: 700px;
+  }
+  .heroContainer .heroContent .heroTitle {
+    font-size: 1em;
+  }
+}

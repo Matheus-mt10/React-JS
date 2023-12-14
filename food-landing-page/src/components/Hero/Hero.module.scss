@@ -42,4 +42,16 @@
         margin-top: 30px;
     }
 }
+@media screen and (max-width: 767px) {
+    .heroContainer{
+        width: 700px;
 
+        .heroContent{
+            .heroTitle{
+                font-size: 1em;
+            }
+        }
+    }
+
+    
+}

@@ -178,3 +178,9 @@ footer .createBy p a {
   color: #5F6062;
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+}
