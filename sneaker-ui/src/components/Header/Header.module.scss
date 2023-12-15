@@ -1,30 +1,78 @@
+@import '../colors/color.module.scss';
+
 header{
     width: 100%;
     display: flex;
-    background-color: #ec1010;
-    height: 250px;
-
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
     .navigationItens{
         display: flex;
         flex-flow: row;
         align-items: center;
         width: 100%;
-        background-color: aliceblue;
         justify-content: space-between;
+        padding: 8px;
+
     
         .brandBox{
             .logoHeader{
-                width: 60px;
+                width: 39px;
+                margin: 0px 0px 0px 8px;
             }
         }
     
         .navBoxIcon{
-        
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            gap: 34px;
+            margin: 5px;
+
             .navIcons{
-                width: 20px;
+                width: 22px;
             }
 
         }
+
+    }
+
+    .searchBar{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        width: 364px;
+        height: 40px;
+        padding: 5px 0px 5px 0px;
+        border-radius: 80px;
+        background-color: $gray-normal;
+        margin: 10px 0px 0px 0px;
+        
+        .lupa{
+            width: 16px;
+            height: 16px;
+            margin: 0px 10px 0px 5px ;
+        }
+
+        .inputSearchHome{
+            width: 300px;
+            height: 26px;
+            border: none;
+            background-color: $gray-normal ;
+            &:focus{
+                outline: none;
+            }
+
+            &::placeholder{
+               margin: 0px 0px 0px 15px;
+            }
+        }
+
+        
+
 
     }
 
