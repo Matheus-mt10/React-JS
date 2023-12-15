@@ -55,8 +55,10 @@ header .searchBar .inputSearchHome:focus {
   outline: none;
 }
 header .searchBar .inputSearchHome::-moz-placeholder {
-  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 10px;
+  color: #737373;
 }
 header .searchBar .inputSearchHome::placeholder {
-  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 10px;
+  color: #737373;
 }/*# sourceMappingURL=Header.module.css.map */
