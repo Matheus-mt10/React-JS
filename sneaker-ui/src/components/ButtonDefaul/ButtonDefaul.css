@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  box-shadow: 3px 3px 10px -3px rgba(51, 51, 51, 0.94);
+  -webkit-box-shadow: 3px 3px 10px -3px rgba(51, 51, 51, 0.94);
+  -moz-box-shadow: 3px 3px 10px -3px rgba(51, 51, 51, 0.94);
+  cursor: pointer;
+}/*# sourceMappingURL=ButtonDefaul.css.map */
