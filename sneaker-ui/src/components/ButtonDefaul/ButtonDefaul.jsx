@@ -2,7 +2,7 @@ import style from '../ButtonDefaul/ButtonDefaul.css';
 
 function ButtonDefaul({textButton}) {
     return(
-        <div className="button">
+        <div className={style.button}>
             <p>{textButton}</p>
         </div>
 

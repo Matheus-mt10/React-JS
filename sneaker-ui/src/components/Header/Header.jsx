@@ -25,9 +25,7 @@ function Header() {
                 <img  className={style.lupa} src={search} alt="Lupa" />
                 <input  className={style.inputSearchHome} placeholder='Buscar' type="search" name="" id="search"/>
             </div>
-
-            
-
+            xx      
         </header>
         
         </>
