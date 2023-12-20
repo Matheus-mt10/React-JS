@@ -1,15 +1,22 @@
 .collectionCard{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     background-color: tomato;
-    padding: 10px;
+    padding: 5px;
+    width: 180px;
 
     .imgSneaker{
-        width: 180px
+        width: 166px;
+        border-radius:10px;
     }
 
     .cardContent{
-
+        margin: 10px 0px 0px 0px;
+        background-color: aquamarine;
         .sneakerTitle{
-            font-size: 18px;
+            font-size: 12px;
         }
 
     }

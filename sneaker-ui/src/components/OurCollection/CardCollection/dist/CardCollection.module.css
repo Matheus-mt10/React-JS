@@ -1,10 +1,20 @@
 .collectionCard {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
   background-color: tomato;
-  padding: 10px;
-}
-.collectionCard .imgSneaker {
+  padding: 5px;
   width: 180px;
 }
+.collectionCard .imgSneaker {
+  width: 166px;
+  border-radius: 10px;
+}
+.collectionCard .cardContent {
+  margin: 10px 0px 0px 0px;
+  background-color: aquamarine;
+}
 .collectionCard .cardContent .sneakerTitle {
-  font-size: 18px;
+  font-size: 12px;
 }

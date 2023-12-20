@@ -7,7 +7,7 @@ function CardCollection({imgSneaker, alt, sneakerTitle, sneakerPrice}) {
             <img className={style.imgSneaker} src={imgSneaker} alt={alt} />
             <div className={style.cardContent}>
                 <h2 className={style.sneakerTitle}>{sneakerTitle}</h2>
-                <p className="sneakerPrice">{sneakerPrice}</p>
+                <p className={style.sneakerPrice}>{sneakerPrice}</p>
             </div>
         </div>
 
