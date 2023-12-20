@@ -1,5 +1,6 @@
 .collectionCard {
   background-color: tomato;
+  padding: 10px;
 }
 .collectionCard .imgSneaker {
   width: 180px;
