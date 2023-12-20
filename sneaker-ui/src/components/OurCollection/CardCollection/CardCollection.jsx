@@ -1,10 +1,14 @@
-function CardCollection({imgSneaker, alt, sneakerTitle, SneakerPrice}) {
+import style from './dist/CardCollection.module.css';
+
+function CardCollection({imgSneaker, alt, sneakerTitle, sneakerPrice}) {
     return(
 
-        <div className="cardCollection">
-            <img src="" alt="" />
-            <h2 className="sneakerTitle">Test</h2>
-            <p className="sneakerPrice">Teste Teste Test</p>
+        <div className={style.collectionCard}>
+            <img className={style.imgSneaker} src={imgSneaker} alt={alt} />
+            <div className={style.cardContent}>
+                <h2 className={style.sneakerTitle}>{sneakerTitle}</h2>
+                <p className="sneakerPrice">{sneakerPrice}</p>
+            </div>
         </div>
 
     );
