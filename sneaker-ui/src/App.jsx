@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Oferted from './components/Oferted/Oferted';
 import OurCollection from './components/OurCollection/OurCollection';
+import Newsletter from './components/Newsletter/Newsletter';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero></Hero>
       <Oferted></Oferted>
       <OurCollection></OurCollection>
+      <Newsletter></Newsletter>
     </div>
   );
 }
