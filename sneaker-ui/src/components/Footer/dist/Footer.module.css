@@ -1,0 +1,36 @@
+.contentBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 14px 30px 14px;
+  gap: 25px;
+}
+.contentBox .imgBrandBox .imgBrand {
+  width: 140px;
+}
+.contentBox .informations {
+  display: flex;
+  gap: 15px;
+}
+.contentBox .informations .aboutBox .aboutList h2 {
+  font-size: 16px;
+}
+.contentBox .informations .aboutBox .aboutList li {
+  font-size: 14px;
+}
+.contentBox .informations .supportBox .supportList h2 {
+  font-size: 16px;
+}
+.contentBox .informations .supportBox .supportList li {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #737373;
+  cursor: pointer;
+}

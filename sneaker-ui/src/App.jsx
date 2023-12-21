@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Oferted from './components/Oferted/Oferted';
 import OurCollection from './components/OurCollection/OurCollection';
 import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Oferted></Oferted>
       <OurCollection></OurCollection>
       <Newsletter></Newsletter>
+      <Footer></Footer>
     </div>
   );
 }
