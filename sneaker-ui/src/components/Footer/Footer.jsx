@@ -1,5 +1,9 @@
 import style from './Footer.module.css';
 import nikeBrand  from '../assets/nikeBrand.png';
+import instaLogo   from '../assets/instalogo-black.png';
+import faceLogo from '../assets/facelogo-black.png';
+import xLogo from '../assets/twitterlogo-black.png';
+import linkedinLogo from '../assets/linkedinlogo-black.png';
 
 function Footer() {
     return(
@@ -37,11 +41,17 @@ function Footer() {
 
             </div>
 
-            <div className="socialMedias">
-                <h2 className="socialTitle">Social Medias</h2>
+            <div className={style.socialMedias}>
+                <h2 className={style.socialTitle}>Social Medias</h2>
+                <div className={style.mediasBrand}>
+                    <a href="#"><img  className={style.brandsLogo} src={instaLogo} alt="Instagram logo" /></a>
+                    <a href="#"><img  className={style.brandsLogo} src={faceLogo} alt="Facebook Logo" /></a>
+                    <a href="#"><img  className={style.brandsLogo} src={xLogo} alt="X logo"/></a>
+                    <a href="#"><img  className={style.brandsLogo} src={linkedinLogo} alt="Linkedin Logo" /></a>
+                </div>
             </div>
 
-            <div className="designBy">
+            <div className={style.designBy}>
                 <h2 className="designName">Design by Matheus Santana</h2>
             </div>
         </footer>
