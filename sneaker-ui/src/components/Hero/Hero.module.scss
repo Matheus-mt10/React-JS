@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px;
+    padding: 20px;
 
     .heroTextBox{
         display: flex;
@@ -35,3 +35,21 @@
 DefaultButton{
     margin-top: 100px;
  }
+
+ @media screen and (min-width:476px) {
+
+    .heroContainer{
+       
+        .heroTextBox{
+            .heroTitle{
+                font-size: 46px;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .heroText{
+                font-size: 18px;
+            }
+        }
+    }
+
+}

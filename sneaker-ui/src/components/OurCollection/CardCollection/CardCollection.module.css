@@ -29,4 +29,13 @@
   margin: 8px 0px 0px 0px;
   font-size: 16px;
   color: #737373;
+}
+
+@media screen and (min-width: 476px) {
+  .collectionCard .imgSneaker {
+    width: 195px;
+  }
+  .collectionCard .cardContent .sneakerTitle {
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=CardCollection.module.css.map */

@@ -61,3 +61,25 @@
         }
     }
 }
+
+@media screen and (min-width:476px) {
+    .newsletterContainer{
+
+        .searchBox{ 
+            width: 85%;
+
+            .inputSearch{
+                width: 70%;
+                background-color: aqua;
+            }
+
+            &::placeholder{
+
+                color: black;
+            }
+
+
+
+        }
+    }
+}

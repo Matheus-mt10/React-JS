@@ -15,5 +15,12 @@
     -moz-box-shadow: 3px 3px 10px 0px rgba(112,112,112,1);
     box-shadow: 3px 3px 10px 0px rgba(112,112,112,1);
     cursor: pointer;
+}
 
+@media screen and (min-width: 476px) {
+    .button{
+        width: 50%;
+        height: 50px;
+        font-size: 20px;
+    }
 }

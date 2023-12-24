@@ -70,10 +70,48 @@ header{
                color: #737373;
             }
         }
-
-        
-
-
     }
+}
 
+@media screen and (min-width:476px) {
+   
+    header{
+
+        .navigationItens{
+            padding: 20px 20px 5px 20px;
+
+            .brandBox{
+                .logoHeader{
+                    width: 50px;
+                    margin: 0px 0px 0px 8px;
+                }
+            }
+
+            .navBoxIcon{    
+                .navIcons{
+                    width: 24px;
+                }   
+            }
+
+
+        }
+
+
+
+
+        .searchBar{
+            width: 90%;
+
+            .lupa{
+                margin: 0px 15px 0px 0px ;
+            }
+
+            .inputSearchHome{
+                width: 83%;
+                background-color: aqua;
+            }
+
+
+        }
+    }
 }

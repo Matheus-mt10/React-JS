@@ -51,3 +51,16 @@
   -moz-box-shadow: 3px 3px 7px 0px rgba(151, 151, 151, 0.6);
   box-shadow: 3px 3px 7px 0px rgba(151, 151, 151, 0.6);
 }
+
+@media screen and (min-width: 476px) {
+  .newsletterContainer .searchBox {
+    width: 85%;
+  }
+  .newsletterContainer .searchBox .inputSearch {
+    width: 70%;
+    background-color: aqua;
+  }
+  .newsletterContainer .searchBox::placeholder {
+    color: black;
+  }
+}

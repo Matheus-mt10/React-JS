@@ -49,4 +49,20 @@
   font-weight: 600;
   background-color: #38B6FF;
   box-shadow: 3px 3px 7px 0px rgba(151, 151, 151, 0.6);
+}
+
+@media screen and (min-width: 476px) {
+  .newsletterContainer .searchBox {
+    width: 85%;
+  }
+  .newsletterContainer .searchBox .inputSearch {
+    width: 70%;
+    background-color: aqua;
+  }
+  .newsletterContainer .searchBox::-moz-placeholder {
+    color: black;
+  }
+  .newsletterContainer .searchBox::placeholder {
+    color: black;
+  }
 }/*# sourceMappingURL=Newsletter.module.css.map */
