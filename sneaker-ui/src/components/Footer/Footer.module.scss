@@ -2,17 +2,16 @@
 
 footer{
     width: 100%;
-}
 
-.contentBox{
+
+    .contentBox{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px 14px 30px 14px;
-    gap: 25px;
+    gap: 30px;
 
     .imgBrandBox{
-
             .imgBrand{
                 width: 140px;
             }
@@ -20,11 +19,12 @@ footer{
 
     .informations{
         display: flex;
-        gap: 15px;
+        gap: 25px;
 
         .aboutBox{
+            
             .aboutList h2 {
-                font-size: 16px;
+                font-size: 18px;
             }
 
             .aboutList li {
@@ -35,7 +35,7 @@ footer{
         .supportBox{
 
             .supportList h2 {
-                font-size: 16px;
+                font-size: 18px;
             }
 
             .supportList li {
@@ -43,7 +43,7 @@ footer{
             }
         }
     }
-}
+    }
 
     
     .socialMedias{
@@ -95,3 +95,19 @@ footer{
         color: $gray-text;
         cursor: pointer;
     }
+
+}
+
+@media screen and (min-width:476px) {
+    
+    footer{
+    .contentBox{
+        .imgBrandBox{
+                .imgBrand{
+                    width: 160px;
+                }
+        }
+    }
+    }
+
+}

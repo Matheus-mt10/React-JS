@@ -78,6 +78,5 @@ header .searchBar .inputSearchHome::placeholder {
   }
   header .searchBar .inputSearchHome {
     width: 83%;
-    background-color: aqua;
   }
 }
