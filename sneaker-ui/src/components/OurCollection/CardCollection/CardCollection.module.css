@@ -38,4 +38,9 @@
   .collectionCard .cardContent .sneakerTitle {
     font-weight: 500;
   }
+}
+@media screen and (min-width: 640px) {
+  .collectionCard .imgSneaker {
+    width: 250px;
+  }
 }/*# sourceMappingURL=CardCollection.module.css.map */

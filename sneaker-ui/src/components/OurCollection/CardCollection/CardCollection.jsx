@@ -4,6 +4,7 @@ function CardCollection({imgSneaker, alt, sneakerTitle, sneakerStyle,sneakerPric
     return(
 
         <div className={style.collectionCard}>
+            
             <img className={style.imgSneaker} src={imgSneaker} alt={alt} />
             <div className={style.cardContent}>
                 <h2 className={style.sneakerTitle}>{sneakerTitle}</h2>

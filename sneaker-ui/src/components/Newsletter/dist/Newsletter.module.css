@@ -58,9 +58,25 @@
   }
   .newsletterContainer .searchBox .inputSearch {
     width: 70%;
-    background-color: aqua;
   }
   .newsletterContainer .searchBox::placeholder {
     color: black;
+  }
+}
+@media screen and (min-width: 641px) {
+  .newsletterContainer .searchBox {
+    width: 85%;
+    height: 70px;
+  }
+  .newsletterContainer .searchBox .inputSearch {
+    width: 75%;
+    background-color: tomato;
+  }
+  .newsletterContainer .searchBox::placeholder {
+    color: black;
+  }
+  .newsletterContainer .searchBox .buttonSearch {
+    width: 25%;
+    height: 40px;
   }
 }

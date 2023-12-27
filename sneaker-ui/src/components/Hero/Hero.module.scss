@@ -36,7 +36,7 @@ DefaultButton{
     margin-top: 100px;
  }
 
- @media screen and (min-width:476px) {
+@media screen and (min-width:476px) {
 
     .heroContainer{
        
@@ -51,5 +51,170 @@ DefaultButton{
             }
         }
     }
+
+}
+
+
+@media screen and (min-width:641px) {
+
+    .heroContainer{
+       
+        .heroTextBox{
+            .heroTitle{
+                font-size: 50px;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .heroText{
+                font-size: 18px;
+                margin: 10px 50px 10px 50px;
+            }
+        }
+    }
+
+
+
+    .heroContainer{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    .heroTextBox{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .heroTitle{
+            font-size: 42px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .heroText{
+            font-size: 14px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .heroImg{
+            margin: 10px 0px 10px 0px;
+        }
+        
+        
+
+    }
+
+}
+
+DefaultButton{
+    margin-top: 100px;
+ }
+
+@media screen and (min-width:476px) {
+
+    .heroContainer{
+       
+        .heroTextBox{
+            .heroTitle{
+                font-size: 46px;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .heroText{
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+
+
+
+.heroContainer{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    .heroTextBox{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .heroTitle{
+            font-size: 42px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .heroText{
+            font-size: 14px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .heroImg{
+            margin: 10px 0px 10px 0px;
+        }
+        
+        
+
+    }
+
+}
+
+DefaultButton{
+    margin-top: 100px;
+ }
+
+@media screen and (min-width:476px) {
+
+    .heroContainer{
+       
+        .heroTextBox{
+            .heroTitle{
+                font-size: 46px;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .heroText{
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width:641px) {
+
+    .heroContainer{
+       
+        .heroTextBox{
+            .heroTitle{
+                font-size: 50px;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .heroText{
+                font-size: 18px;
+                margin: 10px 50px 10px 50px;
+            }
+        }
+    }
+    .heroContainer{
+        .heroImg{
+            width: 88%;
+            margin: 10px 0px 10px 0px;
+        }
+    }
+
+}
+
+
 
 }

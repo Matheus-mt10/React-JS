@@ -80,3 +80,21 @@ header .searchBar .inputSearchHome::placeholder {
     width: 83%;
   }
 }
+@media screen and (min-width: 641px) {
+  header .navigationItens {
+    width: 95%;
+  }
+  header .navigationItens .navBoxIcon .navIcons {
+    width: 28px;
+  }
+  header .searchBar {
+    width: 90%;
+    height: 50px;
+  }
+  header .searchBar .lupa {
+    margin: 0px 15px 0px 0px;
+  }
+  header .searchBar .inputSearchHome {
+    width: 83%;
+  }
+}

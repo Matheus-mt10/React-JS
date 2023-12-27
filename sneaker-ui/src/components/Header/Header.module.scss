@@ -6,6 +6,7 @@ header{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+
     
     .navigationItens{
         display: flex;
@@ -96,6 +97,36 @@ header{
 
         .searchBar{
             width: 90%;
+
+            .lupa{
+                margin: 0px 15px 0px 0px ;
+            }
+
+            .inputSearchHome{
+                width: 83%;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width:641px) {
+   
+    header{
+
+        .navigationItens{
+            width: 95%;
+            .navBoxIcon{    
+                .navIcons{
+                    width: 28px;
+                }   
+            }
+        }
+
+        .searchBar{
+            width: 90%;
+            height: 50px;
 
             .lupa{
                 margin: 0px 15px 0px 0px ;
