@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  background-color: white;
+}
+header a {
+  font-size: 18px;
+  font-weight: 500;
+}
+header li {
+  list-style-type: none;
+}
+header .navigationBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navigationBox .logoBox .menuLogo {
+  width: 20px;
+}
+header .navigationBox .menuList .listItens {
+  margin: 0px 10px;
+  display: flex;
+}
+header .navigationBox .menuList .listItens li {
+  margin: 0px 10px;
+}
+header .logoHeader .nikeLogo {
+  width: 170px;
+}
+header .menuUsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 45px;
+}
+header .menuUsers .bagBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 0px 20px;
+  background-color: black;
+}
+header .menuUsers .bagBox a {
+  color: white;
+}
+header .menuUsers .bagBox .bagLogo {
+  width: 50px;
+}
+header .menuUsers .personLogo {
+  width: 50px;
+}/*# sourceMappingURL=Header.module.css.map */
