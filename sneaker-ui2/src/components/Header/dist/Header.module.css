@@ -20,7 +20,7 @@ header .navigationBox {
   justify-content: center;
 }
 header .navigationBox .logoBox .menuLogo {
-  width: 20px;
+  width: 40px;
 }
 header .navigationBox .menuList .listItens {
   margin: 0px 10px;
@@ -30,7 +30,7 @@ header .navigationBox .menuList .listItens li {
   margin: 0px 10px;
 }
 header .logoHeader .nikeLogo {
-  width: 170px;
+  width: 150px;
 }
 header .menuUsers {
   display: flex;
@@ -56,4 +56,5 @@ header .menuUsers .bagBox .bagLogo {
 }
 header .menuUsers .personLogo {
   width: 50px;
+  height: 50px;
 }

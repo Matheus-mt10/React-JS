@@ -11,18 +11,16 @@ function Header(params) {
             <div className={style.navigationBox}>
 
                 <div className={style.logoBox}>
-                    <a href="#"><img src={menuLogo} alt="Menu logo" /></a>
+                    <a href="#"><img src={menuLogo} className={style.menuLogo} alt="Menu logo" /></a>
                 </div>
 
                 <nav className={style.menuList}>
-
                     <ul className={style.listItens}>
                         <li><a href="#">NEW</a></li>
                         <li><a href="#">MEN</a></li>
                         <li><a href="#">WOMEN</a></li>
                         <li><a href="#">KIDS</a></li>
                     </ul>
-
                 </nav>
 
             </div>
