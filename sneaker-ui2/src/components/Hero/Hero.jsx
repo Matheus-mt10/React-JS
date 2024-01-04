@@ -1,9 +1,13 @@
 import style from '../Hero/Hero.module.css';
 import nikeTn from '../assets/NikeTnPluss.png';
 import nikeTn2 from '../assets/nikeTn2.png';
+import nikeTnback  from '../assets/nikeTnBack.png';
+import nikeTnFoot from '../assets/nikeTnFoot.png';
+import nikeTnDetail from '../assets/nikeTnDetail.png';
 import ImgDetailHero from './ImgDetailHero/ImgDetailHero';
 import favoriteIcon from '../assets/favoriteIcon.png';
 import ChoiseSize from './ChoiceSize/ChoiseSize';
+
 
 
 function Hero() {
@@ -19,38 +23,78 @@ function Hero() {
                    <ImgDetailHero
                     detailImg={nikeTn2}
                    ></ImgDetailHero>
+
                    <ImgDetailHero
-                    detailImg={nikeTn2}
+                    detailImg={nikeTnback}
                    ></ImgDetailHero>
+
                    <ImgDetailHero
-                    detailImg={nikeTn2}
+                    detailImg={nikeTnFoot}
                    ></ImgDetailHero>
+
+                    <ImgDetailHero
+                    detailImg={nikeTnDetail}
+                   ></ImgDetailHero>
+
                 </div>
 
             </div>
 
 
             <div className={style.productPrice}>
-                <h1> NIKE AIR MAX PLUS TN UNIVERSITY BLUE </h1>
-                <div className="priceLike">
+                <span className={style.boxText}>
+                    <h1> Nike Air Max  Plus TN University Blue </h1>
+                </span>
+
+                <div className={style.priceLikeBox}>
                     <h2>159,99</h2>
-                    <img src={favoriteIcon} alt="Favorite Icon" />
+                    <img src={favoriteIcon} className={style.favoriteIcon} alt="Favorite Icon" />
                 </div>
-                <div className="sizeChoice">
+
+                <div className={style.sizeChoice}>
                     <ChoiseSize
                         size={'37'}
                     ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'38'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'39'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'40'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'41'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'42'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'43'}
+                    ></ChoiseSize>
+
+                    <ChoiseSize
+                        size={'44'}
+                    ></ChoiseSize>
                     
-                    <div className="addToCart">
+                    
+                    <div className={style.addToCart}>
                         <h2>Add +</h2>
                     </div>
                 </div>
 
-                <div className="infoShipping">
+                <div className={style.infoShipping}>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus totam voluptatum dolore hic! Ut quia numquam expedita eum iusto nihil, velit aperiam, facilis, similique iure delectus? Recusandae corporis consequuntur consectetur.</p>
                 </div>
 
-                <div className="productDetails">
+                <div className={style.productDetails}>
                     <h2>PRODUCT DETAILS</h2>
                     <span>arrow</span>
                 </div>

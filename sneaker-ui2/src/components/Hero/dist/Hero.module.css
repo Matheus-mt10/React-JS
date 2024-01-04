@@ -2,7 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 50px;
+  margin: 30px 50px;
+}
+.productContainer .boxText {
+  display: flex;
+  margin: 10px 10px 50px 10px;
 }
 .productContainer .productShow {
   display: flex;
@@ -11,7 +15,7 @@
   justify-content: center;
 }
 .productContainer .productShow .nikeTn {
-  width: 98%;
+  width: 80%;
 }
 .productContainer .productShow .productImagesShow {
   display: flex;
@@ -21,8 +25,50 @@
   padding: 10px 0px;
 }
 .productContainer .productPrice {
+  width: 50%;
   display: flex;
   flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.productContainer .productPrice h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.productContainer .productPrice .priceLikeBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+}
+.productContainer .productPrice .priceLikeBox h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.productContainer .productPrice .priceLikeBox .favoriteIcon {
+  width: 50px;
+}
+.productContainer .productPrice .sizeChoice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  padding: 10px;
+  gap: 10px;
+}
+.productContainer .productPrice .sizeChoice .addToCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8%;
+  background-color: #EA5340;
+  color: white;
+  padding: 15px;
+}
+.productContainer .productPrice .productDetails {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
