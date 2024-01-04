@@ -1,0 +1,28 @@
+.productContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 50px;
+}
+.productContainer .productShow {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.productContainer .productShow .nikeTn {
+  width: 98%;
+}
+.productContainer .productShow .productImagesShow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.productContainer .productPrice {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}

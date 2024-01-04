@@ -1,0 +1,8 @@
+.detailImgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailImgBox .detailImg {
+  width: 20%;
+}/*# sourceMappingURL=imgDetailHero.module.css.map */
