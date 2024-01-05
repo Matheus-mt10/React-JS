@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px 50px;
-
+    margin: 55px 0px 0px 0px;
+    
     .boxText{
         display: flex;
         margin: 10px 10px 50px 10px ;
@@ -84,13 +84,16 @@
         }
 
         .infoShipping{
-
+            font-size: 1.1rem;
         }
 
         .productDetails{
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 50px 0px 0px 0px;
+            background-color: #EA5340;
+            width: 100%;
         }
         
     }

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 50px;
+  margin: 55px 0px 0px 0px;
 }
 .productContainer .boxText {
   display: flex;
@@ -70,8 +70,14 @@
   color: white;
   padding: 15px;
 }
+.productContainer .productPrice .infoShipping {
+  font-size: 1.1rem;
+}
 .productContainer .productPrice .productDetails {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 50px 0px 0px 0px;
+  background-color: #EA5340;
+  width: 100%;
 }
