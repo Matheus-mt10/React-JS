@@ -47,6 +47,7 @@
 .productContainer .productPrice .priceLikeBox h2 {
   font-size: 3rem;
   font-weight: 400;
+  color: #CF2D23;
 }
 .productContainer .productPrice .priceLikeBox .favoriteIcon {
   width: 50px;
