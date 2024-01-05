@@ -91,7 +91,7 @@ function Hero() {
                 </div>
 
                 <div className={style.infoShipping}>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus totam voluptatum dolore hic! Ut quia numquam expedita eum iusto nihil, velit aperiam, facilis, similique iure delectus? Recusandae corporis consequuntur consectetur.</p>
+                    <p>Enjoy FREE Shipping on Orders Over $150! <br/> Shop now for a seamless experience and take advantage of our limited-time offer. </p>
                 </div>
 
                 <div className={style.productDetails}>
