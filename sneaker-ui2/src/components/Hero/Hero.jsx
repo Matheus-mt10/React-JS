@@ -7,6 +7,7 @@ import nikeTnDetail from '../assets/nikeTnDetail.png';
 import ImgDetailHero from './ImgDetailHero/ImgDetailHero';
 import favoriteIcon from '../assets/favoriteIcon.png';
 import ChoiseSize from './ChoiceSize/ChoiseSize';
+import arrow from '../assets/arrow.png';
 
 
 
@@ -91,12 +92,12 @@ function Hero() {
                 </div>
 
                 <div className={style.infoShipping}>
-                    <p>Enjoy FREE Shipping on Orders Over $150! <br/> Shop now for a seamless experience and take advantage of our limited-time offer. </p>
+                    <p>Enjoy FREE Shipping on Orders Over $150! <br/> Shop now for a seamless experience. </p>
                 </div>
 
                 <div className={style.productDetails}>
                     <h2>PRODUCT DETAILS</h2>
-                    <span>arrow</span>
+                    <span><img src={arrow} alt="Arrow" /></span>
                 </div>
             </div>
 

@@ -6,7 +6,9 @@
     
     .boxText{
         display: flex;
-        margin: 10px 10px 50px 10px ;
+        margin: 0px 10px 40px 10px;
+       
+        padding: 0px 30px 0px 30px;
         
     }
 
@@ -31,14 +33,12 @@
     }
     
     .productPrice{
-        width: 50%;
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
-        margin: 10px;
-        padding: 10px;
-
+        
+        
         h1{
             font-size: 4rem;
             font-weight: 500;
@@ -47,12 +47,14 @@
         .priceLikeBox{
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 500px;
+            justify-content: space-between;
+            width: 100%;
             text-align: start;
+            margin: 20px 0px 20px 0px;
+            padding: 0px 350px 0px 30px;
 
             h2{
-                font-size: 3rem;
+                font-size: 4rem;
                 font-weight: 400;
                 color: #CF2D23;
             }
@@ -66,11 +68,12 @@
         .sizeChoice{
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 95%;
-            margin: 10px 0px 10px 0px;
-            padding: 10px;
-            gap: 10px;
+            justify-content: space-between;
+            width: 100%;
+            margin: 20px 0px 20px 0px;
+            padding: 0px 340px 0px 30px;
+            
+            
 
             .addToCart{
                 display: flex;
@@ -84,16 +87,34 @@
         }
 
         .infoShipping{
+            width: 100%;
             font-size: 1.1rem;
+            margin: 20px 0px 20px 0px;
+            padding: 0px 350px 0px 30px;
         }
 
         .productDetails{
             display: flex;
             align-items: center;
-            justify-content: center;
-            margin: 50px 0px 0px 0px;
-            background-color: #EA5340;
+            justify-content: space-between;
+            margin: 100px 0px 0px 0px;
+            padding: 0px 10px 0px 10px;
+            background-color: #F0BFBA;
             width: 100%;
+            height: 110px;
+            
+            h2{
+                font-weight: 400;
+                margin-left: 24px;
+            }
+
+            span{
+                img{
+                    width: 50px;
+                    margin-right: 320px;
+                }
+            }
+
         }
         
     }
