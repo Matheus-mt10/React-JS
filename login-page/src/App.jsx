@@ -1,12 +1,13 @@
 
 import './dist/App.module.css';
+import logo from './assets/logo.png'
 
 function App() {
   return (
     <div className="container-app">
 
         <div className="containerMainContent">
-          <header><a href="#"><img src="./assets/logo.png" alt="" className="mainLogo" /></a></header>
+          <header><a href="#"><img src={logo} alt="" className="mainLogo" /></a></header>
           <div className="containerLogin">
             <h1>Bem-vindo de volta</h1>
             <p>Bem vindo de volta, por favor insira seus dados de login </p>
