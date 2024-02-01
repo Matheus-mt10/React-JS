@@ -4,7 +4,7 @@ import logo from './assets/logo.png'
 
 function App() {
   return (
-    <div className="container-app">
+    <div className="containerApp">
 
         <div className="containerMainContent">
           <header><a href="#"><img src={logo} alt="" className="mainLogo" /></a></header>

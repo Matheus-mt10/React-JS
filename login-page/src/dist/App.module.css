@@ -13,8 +13,8 @@ a {
   color: black;
 }
 
-.container-app {
+.containerApp {
   width: 100%;
   height: 100vh;
-  background-color: #f2ff00;
+  background-color: rgba(8, 0, 255, 0.775);
 }
