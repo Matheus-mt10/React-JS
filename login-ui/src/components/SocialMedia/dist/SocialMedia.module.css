@@ -1,0 +1,15 @@
+.socialMediaContainer {
+  display: flex;
+}
+.socialMediaContainer .googleIco {
+  width: 60px;
+  height: 60px;
+}
+.socialMediaContainer .appleIco {
+  width: 60px;
+  height: 60px;
+}
+.socialMediaContainer .facebookIco {
+  width: 60px;
+  height: 60px;
+}
