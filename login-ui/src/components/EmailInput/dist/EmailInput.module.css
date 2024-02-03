@@ -5,5 +5,24 @@
   gap: 2%;
   border: 1px solid black;
   width: 80%;
-  height: 60px;
+  height: 70px;
+  border-radius: 14px;
+}
+.emailContainer .inputEmailBox {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.emailContainer .inputEmailBox p {
+  text-align: left;
+}
+.emailContainer .inputEmailBox #inputEmail {
+  width: 200px;
+}
+.emailContainer .emailIco {
+  width: 8%;
+}
+.emailContainer .confirmIco {
+  width: 6%;
 }
