@@ -4,7 +4,7 @@ function Welcome() {
     return(
         
         <div className={styles.welcomeContainer}>
-            <h1 className={styles.mainTitle}>Bem vindo de volta</h1>
+            <h1 className={styles.mainTitle}>Bem-vindo(a) de volta!!</h1>
             <p>Entre com a sua conta</p>
         </div>
 

@@ -5,8 +5,12 @@ function LoginOrSingUp() {
     return(
 
         <div className={styles.loginSingUp}>
-            <ButtonLogin></ButtonLogin>
-            <ButtonLogin></ButtonLogin>
+            <ButtonLogin
+            textBtn="Sing In"
+            ></ButtonLogin>
+            <ButtonLogin
+            textBtn="Sing Up"
+            ></ButtonLogin>
         </div>
 
         

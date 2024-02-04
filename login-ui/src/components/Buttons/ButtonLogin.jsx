@@ -1,7 +1,7 @@
 import styles from './dist/ButtonLogin.module.css'
-function ButtonLogin() {
+function ButtonLogin({textBtn}) {
     return(
-        <button className={styles.button}>Sign In</button>
+        <button className={styles.button}>{textBtn}</button>
 
     );
 }

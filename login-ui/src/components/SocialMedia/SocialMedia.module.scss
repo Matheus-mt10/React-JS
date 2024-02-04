@@ -1,18 +1,23 @@
 .socialMediaContainer{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    width: 80%;
+    margin: 10px 0px 10px 0px ;
 
     .googleIco{
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
 
     .appleIco{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .facebookIco{
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
     }
 }
