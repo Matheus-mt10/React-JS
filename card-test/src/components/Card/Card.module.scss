@@ -1,8 +1,15 @@
 .cardContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     width: 310px;
     height: 24%;
     border: 1px solid black;
     border-radius: 14px;
+    box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
 
 
     .cardHeader{
@@ -31,6 +38,7 @@
 
     .snkInfo{
         display: flex;
+        gap: %;,
         .snkName{
             h1{
                 font-size: 1rem;
