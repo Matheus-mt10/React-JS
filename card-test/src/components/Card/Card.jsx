@@ -1,5 +1,5 @@
 import styles from './dist/Card.module.css'
-import nikeair from '../Assets/nk (350 x 350 px) cc.png'
+import nikeair from '../Assets/nk full cut.png'
 import cart from '../Assets/cart.png'
 import airIco from '../Assets/nikeairlogo.png'
 
@@ -17,15 +17,17 @@ function Card() {
 
 
             <div className={styles.imgBox}>
-                <img src={nikeair} alt="Tenis Nike" />
+                <img src={nikeair} className={styles.nikeAir} alt="Tenis Nike" />
             </div>
             <div className={styles.snkInfo}>
                 <div className={styles.snkName}>
                     <h1>Nike Air 1</h1>
                     <p>Casual </p>
                 </div>
-                <div className="snkPrice">
-                    <p>455</p>
+
+                <div className={styles.snkPrice}>
+                    <h2 className={styles.price}>455</h2>
+                    <p className={styles.coin}>Reais</p>
                 </div>
             </div>
         </div>
