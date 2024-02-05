@@ -1,0 +1,31 @@
+.cardContainer {
+  width: 310px;
+  height: 24%;
+  border: 1px solid black;
+  border-radius: 14px;
+}
+.cardContainer .cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50%;
+}
+.cardContainer .cardHeader .airIco {
+  width: 16%;
+}
+.cardContainer .cardHeader .cartIco {
+  width: 14%;
+}
+.cardContainer .imgBox {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardContainer .snkInfo {
+  display: flex;
+}
+.cardContainer .snkInfo .snkName h1 {
+  font-size: 1rem;
+}
