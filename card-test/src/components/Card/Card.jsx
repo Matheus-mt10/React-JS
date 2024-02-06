@@ -1,7 +1,6 @@
 import styles from './dist/Card.module.css'
-import nikeair from '../Assets/nk full cut.png'
 import cart from '../Assets/cart.png'
-import airIco from '../Assets/nikeairlogo.png'
+
 
 function Card({snkImg,snkIco,snkName,snkStyle,snkPrice}) {
     return(
@@ -25,7 +24,7 @@ function Card({snkImg,snkIco,snkName,snkStyle,snkPrice}) {
                 </div>
 
                 <div className={styles.snkPrice}>
-                    <h2 className={styles.price}>{snkStyle}</h2>
+                    <h2 className={styles.price}>{snkPrice}</h2>
                     <p className={styles.coin}>Reais</p>
                 </div>
             </div>
