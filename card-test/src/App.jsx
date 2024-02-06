@@ -4,7 +4,10 @@ import Card from './components/Card/Card';
 function App() {
   return (
     <body>
-      <Card></Card>
+      <Card
+      
+      
+      ></Card>
     </body>
   );
 }
