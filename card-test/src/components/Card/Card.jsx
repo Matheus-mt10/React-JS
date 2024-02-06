@@ -11,7 +11,6 @@ function Card() {
             <div className={styles.cardHeader}>
                
                     <img className={styles.airIco} src={airIco} alt="" />
-               
                     <img src={cart} alt="" className={styles.cartIco} />
             </div>
 
@@ -26,7 +25,7 @@ function Card() {
                 </div>
 
                 <div className={styles.snkPrice}>
-                    <h2 className={styles.price}>455</h2>
+                    <h2 className={styles.price}>455,00</h2>
                     <p className={styles.coin}>Reais</p>
                 </div>
             </div>
