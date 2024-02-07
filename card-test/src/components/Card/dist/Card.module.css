@@ -119,3 +119,12 @@
     color: gray;
   }
 }
+@media screen and (min-width: 480px) {
+  .cardContainer {
+    width: 80%;
+    height: 24%;
+  }
+  .cardContainer .imgBox .nikeAir {
+    width: 80%;
+  }
+}
