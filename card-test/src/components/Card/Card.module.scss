@@ -6,12 +6,13 @@
     justify-content: center;
     width: 310px;
     height: 28%;
-    // border: 1px solid black;
+    margin: 20px 0px 10px 0px;
     border-radius: 14px;
     box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
     -webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.17);
 
+   
 
     .cardHeader{
         display: flex;
@@ -61,12 +62,10 @@
             p{
                color: gray;
             }
-
         }
 
         .snkPrice{
            
-
             .price{
                 font-size: 1.1rem;
                 font-weight: 500; 
@@ -78,3 +77,113 @@
 
     }
 }
+
+@media screen and (max-width:321px) {
+    .cardContainer{
+        width: 280px;
+        height: 24%;
+
+        .imgBox{
+            
+            .nikeAir{
+                width: 200px;
+            }
+        }
+
+        .cardHeader{
+            gap: 65%;
+                .airIco{
+                    width: 16%;
+                }
+    
+                .cartIco{
+                    width: 10%;
+                }
+          
+        }
+
+        .snkInfo{
+    
+            .snkName{
+                h1{
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                }
+    
+                p{
+                   color: gray;
+                }
+            }
+    
+            .snkPrice{
+               
+                .price{
+                    font-size: 1.1rem;
+                    font-weight: 500; 
+                }
+                .coin{
+                    color: gray;
+                }
+            }
+    
+        }
+        
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:424px) {
+    
+    .cardContainer{
+       
+        .imgBox{
+            .nikeAir{
+                width: 260px;
+
+            }
+        }
+
+        .cardHeader{
+            gap: 60%;
+                .airIco{
+                    width: 16%;
+                }
+    
+                .cartIco{
+                    width: 10%;
+                }
+          
+        }
+
+
+        .snkInfo{
+            .snkName{
+
+                h1{
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                }
+    
+                p{
+                   color: gray;
+                }
+            }
+    
+            .snkPrice{
+               
+                .price{
+                    font-size: 1.3rem;
+                    font-weight: 500; 
+                }
+                .coin{
+                    color: gray;
+                }
+            }
+    
+        }
+
+
+
+
+    }
+}
+

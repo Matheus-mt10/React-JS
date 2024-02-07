@@ -8,11 +8,9 @@ function Card({snkImg,snkIco,snkName,snkStyle,snkPrice}) {
         <div className={styles.cardContainer}>
 
             <div className={styles.cardHeader}>
-               
                     <img className={styles.airIco} src={snkIco} alt="" />
                     <img src={cart} alt="" className={styles.cartIco} />
             </div>
-
 
             <div className={styles.imgBox}>
                 <img src={snkImg} className={styles.nikeAir} alt="Tenis Nike" />
@@ -29,7 +27,6 @@ function Card({snkImg,snkIco,snkName,snkStyle,snkPrice}) {
                 </div>
             </div>
         </div>
-
     )
 }
 export default Card
