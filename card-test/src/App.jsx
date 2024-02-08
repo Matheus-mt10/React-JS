@@ -4,6 +4,10 @@ import airIco from './components/Assets/nikeairlogo.png'
 import tnIco from './components/Assets/niketnlogo.png'
 import jordanIco from './components/Assets/jordanLogo.png'
 import jordan1 from './components/Assets/jordan1.png'
+import noctaIco from './components/Assets/noctaLogo.png'
+import nikeLogo from './components/Assets/nikeLogoCut.png'
+import nikeNocta from './components/Assets/NOCTAGlideCut.png'
+import nikeYearDragon from './components/Assets/NikeYearOfTheDragoncur.png'
 import jordanlowImg from './components/Assets/nokeJordanLw.png'
 import nikeAirImg from './components/Assets/nk full cut.png'
 import nikeAirMaxPlus from './components/Assets/niketnpluscut.png'
@@ -29,6 +33,22 @@ function App() {
       ></Card>
 
       <Card
+        snkIco={noctaIco}
+        snkImg={nikeNocta}
+        snkName={"NOCTA Glide"}
+        snkStyle={"Sport"}
+        snkPrice={"1000"}
+      ></Card>
+
+      <Card
+        snkIco={nikeLogo}
+        snkImg={nikeYearDragon}
+        snkName={"Year of the dragon"}
+        snkStyle={"Casual"}
+        snkPrice={"1000"}
+      ></Card>
+
+      <Card
         snkIco={jordanIco}
         snkImg={jordanlowImg}
         snkName={"Jordan Low"}
@@ -42,7 +62,6 @@ function App() {
         snkName={"Jordan 1"}
         snkStyle={"Sneaker"}
         snkPrice={"1000"}
-
       ></Card>
       
     </body>

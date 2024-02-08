@@ -186,8 +186,22 @@
         width: 80%;
         height: 30%;
 
+
+        .cardHeader{
+
+                .airIco{
+                    width: 12%;
+                }
+    
+                .cartIco{
+                    width: 8%;
+                }
+          
+        }
+
         .imgBox{
             .nikeAir{
+                margin: 0;
                width: 98%;
             }
         }
@@ -202,8 +216,18 @@
         height: 23%;
 
         .snkInfo{
+            gap: 15%;
+
             .snkName{
-                width: 100%;
+                 width: 100%;   
+            }
+        }
+
+
+        .imgBox{
+            .nikeAir{
+               margin: 0;
+               width: 100%;
             }
         }
         
