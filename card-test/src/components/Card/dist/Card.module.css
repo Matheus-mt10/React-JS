@@ -92,7 +92,7 @@
   }
 }
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .cardContainer .imgBox .nikeAir {
+  .cardContainer sd .imgBox .nikeAir {
     width: 260px;
   }
   .cardContainer .cardHeader {
@@ -122,9 +122,18 @@
 @media screen and (min-width: 480px) {
   .cardContainer {
     width: 80%;
-    height: 24%;
+    height: 30%;
   }
   .cardContainer .imgBox .nikeAir {
-    width: 80%;
+    width: 98%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .cardContainer {
+    width: 44%;
+    height: 23%;
+  }
+  .cardContainer .snkInfo .snkName {
+    width: 100%;
   }
 }
