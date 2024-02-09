@@ -129,6 +129,8 @@
     }
 }
 
+// ---- Início das media query ---- Início das media query ---- Início das media query ---- Início das media query 
+
 @media screen and (min-width: 375px) and (max-width:424px) {
     
     .cardContainer{sd
@@ -223,15 +225,52 @@
             }
         }
 
+        .imgBox{
+            .nikeAir{
+               margin: 0;
+               width: 215px;
+            }
+        } 
+   }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+    
+    .cardContainer{
+        width: 44%;
+        height: 30%;
+
+        
+        .cardHeader{
+            width: 100%;
+            gap: 60%;
+
+            .airIco{
+                width: 20%;
+            }
+
+            .cartIco{
+                width: 10%;
+            }
+        }
+        
+
+        .snkInfo{
+            gap: 15%;
+
+            .snkName{
+                 width: 100%;   
+            }
+        }
 
         .imgBox{
             .nikeAir{
                margin: 0;
-               width: 100%;
+               width: 215px;
             }
-        }
-        
+        } 
    }
+
 
 
 }

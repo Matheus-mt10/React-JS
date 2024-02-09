@@ -148,6 +148,32 @@
   }
   .cardContainer .imgBox .nikeAir {
     margin: 0;
+    width: 215px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .cardContainer {
+    width: 44%;
+    height: 30%;
+  }
+  .cardContainer .cardHeader {
     width: 100%;
+    gap: 60%;
+  }
+  .cardContainer .cardHeader .airIco {
+    width: 20%;
+  }
+  .cardContainer .cardHeader .cartIco {
+    width: 10%;
+  }
+  .cardContainer .snkInfo {
+    gap: 15%;
+  }
+  .cardContainer .snkInfo .snkName {
+    width: 100%;
+  }
+  .cardContainer .imgBox .nikeAir {
+    margin: 0;
+    width: 215px;
   }
 }
