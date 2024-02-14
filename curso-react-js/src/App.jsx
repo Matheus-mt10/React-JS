@@ -1,10 +1,12 @@
 import './App.css';
-import Evento01 from './components/eventos/Evento01';
+import EventExe from './components/eventos/EventExe';
+
 
 function App() {
   return (
     <div className="App">
-      <Evento01></Evento01>
+      <EventExe></EventExe>
+      
      
     </div>
   );
