@@ -1,12 +1,16 @@
 import './App.css';
-import EventExe from './components/eventos/EventExe';
+// import EventExe from './components/eventos/EventExe';
+
+import ClassaUseState from './components/useState/ClassaUseState'
+
 
 
 function App() {
   return (
     <div className="App">
-      <EventExe></EventExe>
+      <ClassaUseState></ClassaUseState>
       
+     
      
     </div>
   );
